@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/jboss-eap-6/eap-openshift:6.4
 MAINTAINER Andrew Block
 
 # Deployable Environment Variables
-ENV TICKET_MONSTER_NEXUS_HOST 10.3.8.156
+ENV TICKET_MONSTER_NEXUS_HOST cicd.ose.example.com
 ENV TICKET_MONSTER_NEXUS_PORT 8081
 ENV TICKET_MONSTER_GROUP_ID org.jboss.examples
 ENV TICKET_MONSTER_ARTIFACT_ID ticket-monster
